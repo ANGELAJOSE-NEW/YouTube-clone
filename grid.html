@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid practice</title>
+    <style>
+      .example{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        
+      }
+      .first-grid{
+        background-color: aqua;
+      }
+      .second-grid{
+        background-color:lightblue;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom:  1000px;">
+   <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px ;">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: lightpink;">div 2<p>hi</p></div>
+   </div>
+   <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: lightpink;">div 2<p>hi</p></div>
+    <div style="background-color: lightblue;">div 3</div>
+    <div style="background-color: lightpink;">div 2</div>
+   </div>
+
+   <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr ;">
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">free space taken</div>
+    
+  </div>
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr ;">
+    <div style="background-color: lightblue;">100px</div>
+    <div style="background-color: lightpink;">free space taken</div>
+    <div style="background-color: lightblue;">2 timesfree space taken</div>
+  </div>
+
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 20px ;
+    row-gap: 40px;">
+    <div style="background-color: lightblue; height: 200px ;">free space taken</div>
+    <div style="background-color: lightpink;">free space taken</div>
+    <div style="background-color: lightblue;">free space taken</div>
+    <div style="background-color: lightpink; height: 200px;">free space taken</div>
+  </div>
+
+
+  <div class="example">
+    <div class="first-grid">
+      
+        fefe
+    
+    </div>
+    <div class="second-grid">
+      fefe
+    </div>
+  </div>
+
+
+  </body>
+</html>

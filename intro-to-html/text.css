@@ -1,0 +1,58 @@
+p{
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.video-title{
+
+font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+   width: 300px;
+   margin-bottom: 5px;
+
+}
+.view-title{
+font-size: 14px;
+  
+  color: #606060;
+  margin-bottom: 20px;
+ 
+}
+.video-author{
+font-size: 14px;
+ 
+  color: #606060;
+  margin-bottom: 20px;
+
+}
+.video-description{
+
+font-size: 14px;
+font-weight: 400;
+width:280px ;
+line-height: 20px;
+color: #606060;
+margin-bottom: 100px;
+
+
+
+}
+.apple-message{
+text-align: center;
+color:white;
+background-color: #e34140;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 15px;
+
+}
+.span-example{
+margin-left: 10px;
+}
+.span-example:hover{
+cursor: pointer;
+text-decoration: underline;
+
+
+}
